@@ -1,0 +1,72 @@
+@use "../../App/variables";
+
+.card {
+  box-shadow: variables.$box-shadow;
+
+  &__img {
+    max-width: 3.4em;
+    max-height: 3.4em;
+    border-radius: variables.$border-radius;
+  }
+
+  &__title {
+    margin-bottom: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__desc {
+    margin-bottom: .7rem;
+  }
+
+  &__name {
+    font-size: 1.55rem;
+    font-weight: bold;
+  }
+
+  &__icon {
+    font-size: 1.3rem;
+    margin-right: .5rem;
+  }
+
+  &__rate {
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+
+  &__reviews {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: .8rem;
+  }
+
+  &__item {
+    margin-bottom: .5rem;
+    padding: variables.$padding__desc;
+    display: flex !important;
+    justify-content: space-between;
+    border-radius: variables.$border-radius;
+  }
+
+  &__text {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  &__btn {
+    background: variables.$green !important;
+    color: white !important;
+    font-weight: bold;
+    border-radius: variables.$border-radius;
+    min-height: 59px;
+    font-size: 1.2rem;
+
+    &:hover {
+      background: variables.$green__hover;
+    }
+  }
+
+  &__tooltip {
+    display: block !important;
+  }
+}

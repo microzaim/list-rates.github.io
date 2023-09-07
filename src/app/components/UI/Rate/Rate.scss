@@ -1,0 +1,39 @@
+@use "../../App/variables";
+@use "../../App/mixin";
+
+.rate {
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  &__card {
+    @include mixin.flex-between-center;
+    margin-bottom: 1rem;
+    &:hover{
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: variables.$border-radius;
+      padding-right: .5rem;
+    }
+  }
+
+  &__title {
+    @include mixin.flex-between-center;
+  }
+
+  &__img {
+    max-width: 3.4em;
+    max-height: 3.4em;
+    border-radius: variables.$border-radius;
+    margin-right: .5rem;
+  }
+
+  &__stat {
+    @include mixin.flex-between-center;
+
+  }
+
+  &__icon {
+    margin-right: .3rem;
+    font-size: 1.5rem;
+  }
+
+}

@@ -1,0 +1,16 @@
+@use "../../App/variables";
+
+.page-home {
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 2rem;
+  }
+
+  &__not-found-text {
+    padding: variables.$padding;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}

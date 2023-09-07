@@ -1,0 +1,10 @@
+.tab-bar {
+  &__icon {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
+    &--active{
+      font-size: 2rem;
+      transition: .2s;
+    }
+  }
+}

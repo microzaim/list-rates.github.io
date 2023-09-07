@@ -1,0 +1,53 @@
+@use "./variables";
+
+body {
+  color: #2B2D33 !important;
+  scroll-behavior: smooth !important;
+}
+.loading-lg{
+  width: 3rem!important;
+}
+.modal:not(dialog:not(.modal-open)), .modal::backdrop{
+  background-color: #2B2D33!important;
+}
+.btn{
+  border-radius: variables.$border-radius!important;
+}
+.fa {
+  &-gift {
+    font-size: variables.$font-size-desc-icon;
+  }
+
+  &-wallet {
+    font-size: variables.$font-size-desc-icon;
+  }
+
+  &-video {
+    font-size: variables.$font-size-desc-icon;
+  }
+
+  &-android {
+    font-size: variables.$font-size-title-icons;
+  }
+
+  &-apple {
+    font-size: variables.$font-size-title-icons;
+  }
+
+  &-circle-check {
+    font-size: variables.$font-size-title-icons;
+  }
+  &-fire-flame-curved{
+    font-size: variables.$font-size-desc-icon;
+    margin-right: .5rem;
+    color:#FC3F1D;
+  }
+}
+
+input {
+  border-radius: 0!important;
+  &:focus-visible {
+    outline: none !important;
+  }
+}
+
