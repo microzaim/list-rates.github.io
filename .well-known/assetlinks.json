@@ -1,8 +1,9 @@
+
 [{
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "ru.bet.betlist",
+    "package_name": "ru.bet.bet_list",
     "sha256_cert_fingerprints":
     ["35:19:57:FE:C7:BC:79:90:0C:35:4E:5B:91:CD:47:81:C7:2D:45:8D:D3:A5:D3:B5:0A:34:6C:72:FE:0F:22:55"]
   }
