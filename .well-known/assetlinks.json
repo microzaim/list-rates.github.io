@@ -1,9 +1,15 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "ru.bet.betlist",
-    "sha256_cert_fingerprints":
-    ["35:19:57:FE:C7:BC:79:90:0C:35:4E:5B:91:CD:47:81:C7:2D:45:8D:D3:A5:D3:B5:0A:34:6C:72:FE:0F:22:55"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ru.bet.betlist",
+      "sha256_cert_fingerprints": [
+        "35:19:57:FE:C7:BC:79:90:0C:35:4E:5B:91:CD:47:81:C7:2D:45:8D:D3:A5:D3:B5:0A:34:6C:72:FE:0F:22:55",
+        "F5:69:ED:B2:E9:46:11:4D:43:62:17:DF:A2:2D:C7:D3:8C:59:1B:50:5B:83:44:41:45:D1:51:40:39:37:CD:41"
+      ]
+    }
   }
-}]
+]
